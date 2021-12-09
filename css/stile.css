@@ -1,0 +1,228 @@
+*{margin:0;padding:0;}
+
+body
+{
+    font-family: "NotoSans";
+}
+.Top
+{
+    width: 100vw;
+
+}
+.BackTop
+{
+    position:relative;
+    margin-top: 80px;
+ 
+    width: 100%;
+    height: 650px;
+  
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.95%, #000000 148.75%), url(../image/fon.png);
+    background-size: cover;
+    text-align: center;
+}
+.BackTop>img
+{
+    width: 110px;
+    margin-top: 40px;
+}
+
+.infoTop
+{
+    
+    font-weight: 700;
+    font-size: 60px;  
+    color: white;
+    line-height: 80px;
+    margin: 20px;
+}
+
+.infoBonusTop
+{
+    font-weight: 400;
+    font-size: 30px;  
+    color: white;
+    line-height: 40px; 
+}
+
+.infoDownTop
+{
+    position: absolute;
+    bottom: 20px;
+    left: 43vw;
+}
+.oneLine
+{
+    width: 100vw;
+    text-align: center;
+    
+}
+.titleLine
+{
+    font-weight: 700;
+    font-size: 30px;
+    color: #765151;
+    line-height: 40px; 
+    font-weight: bold;  
+    padding-top: 48px;  
+
+}
+.textLine
+{
+    width: 50%;
+    margin: 28px auto;
+}
+
+.twoLine
+{
+    width: 100vw;
+    text-align: center;
+    background-color: #EAE7E7;
+}
+
+.boxLine
+{
+    display: inline-block;
+    height: 380px;
+    background-color: white;
+    min-width: 200px;
+    width: 15%;
+    margin: 36px 24px 0 0;
+}
+.titleBoxLine
+{
+    font-weight: 700;
+    font-size: 16px;
+    color: #765151;
+    line-height: 22px; 
+    padding-top: 26px;
+
+}
+.imgBoxLine
+{
+    margin-top: 24px;
+    /*background:  url(../image/Rectangle\ 321.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50%;*/
+
+}
+.imgBoxLine>img
+{
+    width: 100%;
+}
+
+.buttonLine
+{
+    padding-top: 36px;
+    padding-bottom: 48px;
+}
+.buttonLine>p
+{
+    display: inline-block;
+    width: 30%;
+    background-color: #765151;
+    color: white;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px; 
+    padding: 12px;
+}
+
+.threeLine
+{
+    width: 100vw;
+    text-align: center;
+    background-color: #F0E3DF; 
+}
+
+.contLine
+{
+    margin-top: 24px;
+}
+.contLine>div
+{
+    display: inline-block;
+}
+.contText
+{
+    font-weight: 600;
+    font-size: 24px;
+    color: #765151;
+    line-height: 33px; 
+    padding-top: 24px;
+}
+.contIcon
+{
+  width: 30px;  
+}
+.contIcon>*
+{
+    width: 100%;
+    margin-bottom: -6px;
+}
+
+.fourLine
+{
+    width: 100vw;
+    text-align: center;
+}
+
+.titleFour
+{
+    font-weight: 400;
+    font-size: 32px;
+    color: #404040;
+    line-height: 32px; 
+    padding-top: 48px;
+}
+
+.hrLine {
+    display: inline-block;
+    width: 90%;
+	margin: 23px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid  #ADADAD;
+}
+
+.textQuest
+{
+    margin-left: 7%;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    color: #404040;
+    line-height: 28px;  
+}
+
+.textQuestTitle
+{
+    margin-left: 7%;
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    color: #404040;
+    line-height: 28px;  
+}
+
+.textQuestOpen
+{
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6E6E6E;
+    line-height: 27px;  
+}
+
+
+@font-face {
+    font-family: "NotoSans"; 
+    src: url("../fonts/NotoSans/NotoSans-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
